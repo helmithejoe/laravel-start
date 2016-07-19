@@ -20,8 +20,8 @@ for($i=1;$i<=3;$i++) {
 }
 if(!empty($seg[0])) {
 	//set default route
-	if(empty($seg[1])) $seg[1] = 'Community';
-	if(empty($seg[2])) $seg[2] = 'index';
+	if(empty($seg[1])) $seg[1] = Config::get('app.default_controller');
+	if(empty($seg[2])) $seg[2] = Config::get('app.default_action');
 	
 	//views namespace for each modules
 	//View::addLocation(app('path').'/views/'.$seg[0].'/'.$seg[1]);

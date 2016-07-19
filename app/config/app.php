@@ -27,6 +27,10 @@ return array(
 	*/
 
 	'url' => 'http://localhost',
+	
+	'default_controller' => 'Home',
+	
+	'default_action' => 'index',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -39,7 +43,7 @@ return array(
 	|
 	*/
 
-	'timezone' => 'UTC',
+	'timezone' => 'Asia/Jakarta',
 
 	/*
 	|--------------------------------------------------------------------------
